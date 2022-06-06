@@ -1,0 +1,11 @@
+body
+{
+    margin: 0%;
+}
+
+.darkness
+{
+    width: 100%;
+    height: 2000px;
+    background-color: #000000;  
+}
