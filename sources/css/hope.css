@@ -1,0 +1,279 @@
+/* hope */
+.hope
+{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+}
+/* ----------------------face-hope--------------------------- */
+.face-hope
+{
+    position: absolute;
+    display: none;
+}
+.face-hope *
+{
+    position: absolute;
+}
+/* face-hope-head */
+.face-hope .face-hope-head
+{
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+/* face-hope-body */
+.face-hope-body
+{
+    top: 35px;
+    left: 0px;
+    z-index: 7;
+}
+/* face-hope-left-forearm */
+.face-hope-left-forearm
+{
+    top: 46px;
+    left: -6px;
+    z-index: 6;
+    transform-origin: 10px 0px;
+}
+/* face-hope-left-arm */
+.face-hope-left-arm
+{
+    top: 69px;
+    left: -14px;
+    z-index: 8;
+    transform-origin: 10px 0px;
+}
+/* face-hope-right-forearm */
+.face-hope-right-forearm
+{
+    top: 46px;
+    left: 31px;
+    z-index: 6;
+    transform-origin: 4px 0px;
+}
+/* face-hope-right-arm */
+.face-hope-right-arm
+{
+    top: 69px;
+    left: 38px;
+    z-index: 8;
+    transform-origin: 4px 0px;
+}
+/* face-hope-left-upperleg */
+.face-hope-left-upperleg
+{
+    top: 84px;
+    left: 6px;
+    z-index: 4;
+    transform-origin: 17px 0px;
+}
+/* face-hope-left-leg */
+.face-hope-left-leg
+{
+    top: 128px;
+    left: 0px;
+    z-index: 5;
+    transform-origin: 11px 0px;
+}
+/* face-hope-right-upperleg */
+.face-hope-right-upperleg
+{
+    top: 84px;
+    left: 8px;
+    z-index: 4;
+    transform-origin: 14px 0px;   
+}
+/* face-hope-right-leg */
+.face-hope-right-leg
+{
+    top: 128px;
+    left: 25px;
+    z-index: 5;
+    transform-origin: 5px 0px;   
+}
+/* ----------------------profil-hope--------------------------- */
+.profil-hope
+{
+    position: absolute;
+    display: none;
+}
+.profil-hope *
+{
+    position: absolute;
+}
+/* profil-hope-head */
+.profil-hope .profil-hope-head
+{
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+/* profil-hope-body */
+.profil-hope-body
+{
+    top: 35px;
+    left: 0px;
+    z-index: 7;
+}
+/* profil-hope-left-forearm */
+.profil-hope-left-forearm
+{
+    top: 46px;
+    left: -6px;
+    z-index: 6;
+    transform-origin: 10px 0px;
+}
+/* profil-hope-left-arm */
+.profil-hope-left-arm
+{
+    top: 69px;
+    left: -14px;
+    z-index: 8;
+    transform-origin: 10px 0px;
+}
+/* profil-hope-right-forearm */
+.profil-hope-right-forearm
+{
+    top: 46px;
+    left: 31px;
+    z-index: 6;
+    transform-origin: 4px 0px;
+}
+/* profil-hope-right-arm */
+.profil-hope-right-arm
+{
+    top: 69px;
+    left: 38px;
+    z-index: 8;
+    transform-origin: 4px 0px;
+}
+/* profil-hope-left-upperleg */
+.profil-hope-left-upperleg
+{
+    top: 84px;
+    left: 6px;
+    z-index: 4;
+    transform-origin: 17px 0px;
+}
+/* profil-hope-left-leg */
+.profil-hope-left-leg
+{
+    top: 128px;
+    left: 0px;
+    z-index: 5;
+    transform-origin: 11px 0px;
+}
+/* profil-hope-right-upperleg */
+.profil-hope-right-upperleg
+{
+    top: 84px;
+    left: 8px;
+    z-index: 4;
+    transform-origin: 14px 0px;   
+}
+/* profil-hope-right-leg */
+.profil-hope-right-leg
+{
+    top: 128px;
+    left: 25px;
+    z-index: 5;
+    transform-origin: 5px 0px;   
+}
+/* ----------------------back-hope--------------------------- */
+.back-hope
+{
+    position: absolute;
+    /* display: none; */
+}
+.back-hope *
+{
+    position: absolute;
+}
+/* back-hope-head */
+.back-hope .back-hope-head
+{
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+/* back-hope-body */
+.back-hope-body
+{
+    top: 35px;
+    left: 0px;
+    z-index: 7;
+}
+/* back-hope-left-forearm */
+.back-hope-left-forearm
+{
+    top: 46px;
+    left: -6px;
+    z-index: 6;
+    transform-origin: 10px 0px;
+}
+/* back-hope-left-arm */
+.back-hope-left-arm
+{
+    top: 69px;
+    left: -14px;
+    z-index: 8;
+    transform-origin: 10px 0px;
+}
+/* back-hope-right-forearm */
+.back-hope-right-forearm
+{
+    top: 46px;
+    left: 31px;
+    z-index: 6;
+    transform-origin: 4px 0px;
+}
+/* back-hope-right-arm */
+.back-hope-right-arm
+{
+    top: 69px;
+    left: 38px;
+    z-index: 8;
+    transform-origin: 4px 0px;
+}
+/* back-hope-left-upperleg */
+.back-hope-left-upperleg
+{
+    top: 84px;
+    left: 6px;
+    z-index: 4;
+    transform-origin: 17px 0px;
+}
+/* back-hope-left-leg */
+.back-hope-left-leg
+{
+    top: 128px;
+    left: 0px;
+    z-index: 5;
+    transform-origin: 11px 0px;
+}
+/* back-hope-right-upperleg */
+.back-hope-right-upperleg
+{
+    top: 84px;
+    left: 8px;
+    z-index: 4;
+    transform-origin: 14px 0px;   
+}
+/* back-hope-right-leg */
+.back-hope-right-leg
+{
+    top: 128px;
+    left: 25px;
+    z-index: 5;
+    transform-origin: 5px 0px;   
+}
+/* -----------------------star-of-sage-------------------- */
+.star-of-sage
+{
+    position: absolute;
+    top: -20px;
+    left: -1px;
+
+}
