@@ -9,7 +9,7 @@
 .face-hope
 {
     position: absolute;
-    display: none;
+    /* display: none; */
 }
 .face-hope *
 {
@@ -113,71 +113,71 @@
 /* profil-hope-body */
 .profil-hope-body
 {
-    top: 35px;
-    left: 0px;
+    top: 36px;
+    left: 6px;
     z-index: 7;
 }
 /* profil-hope-left-forearm */
 .profil-hope-left-forearm
 {
     top: 46px;
-    left: -6px;
-    z-index: 6;
+    left: -4px;
+    z-index: 8;
     transform-origin: 10px 0px;
 }
 /* profil-hope-left-arm */
 .profil-hope-left-arm
 {
-    top: 69px;
-    left: -14px;
-    z-index: 8;
+    top: 67px;
+    left: -8px;
+    z-index: 9;
     transform-origin: 10px 0px;
 }
 /* profil-hope-right-forearm */
 .profil-hope-right-forearm
 {
     top: 46px;
-    left: 31px;
-    z-index: 6;
+    left: 26px;
+    z-index: 5;
     transform-origin: 4px 0px;
 }
 /* profil-hope-right-arm */
 .profil-hope-right-arm
 {
     top: 69px;
-    left: 38px;
+    left: 29px;
     z-index: 8;
     transform-origin: 4px 0px;
 }
 /* profil-hope-left-upperleg */
 .profil-hope-left-upperleg
 {
-    top: 84px;
-    left: 6px;
-    z-index: 4;
+    top: 81px;
+    left: -0.5px;
+    z-index: 5;
     transform-origin: 17px 0px;
 }
 /* profil-hope-left-leg */
 .profil-hope-left-leg
 {
-    top: 128px;
-    left: 0px;
+    top: 120px;
+    left: -3px;
     z-index: 5;
     transform-origin: 11px 0px;
 }
 /* profil-hope-right-upperleg */
 .profil-hope-right-upperleg
 {
-    top: 84px;
-    left: 8px;
+    top: 77px;
+    left: 5px;
     z-index: 4;
     transform-origin: 14px 0px;   
 }
 /* profil-hope-right-leg */
 .profil-hope-right-leg
 {
-    top: 128px;
-    left: 25px;
+    top: 120px;
+    left: 20.5px;
     z-index: 5;
     transform-origin: 5px 0px;   
 }
@@ -185,7 +185,7 @@
 .back-hope
 {
     position: absolute;
-    /* display: none; */
+    display: none;
 }
 .back-hope *
 {
@@ -201,73 +201,73 @@
 /* back-hope-body */
 .back-hope-body
 {
-    top: 35px;
+    top: 37px;
     left: 0px;
     z-index: 7;
 }
 /* back-hope-left-forearm */
 .back-hope-left-forearm
 {
-    top: 46px;
-    left: -6px;
+    top: 47px;
+    left: 31px;
     z-index: 6;
-    transform-origin: 10px 0px;
+    transform-origin: 4px 0px;
 }
 /* back-hope-left-arm */
 .back-hope-left-arm
 {
     top: 69px;
-    left: -14px;
+    left: 40.5px;
     z-index: 8;
-    transform-origin: 10px 0px;
+    transform-origin: 4px 0px;
 }
 /* back-hope-right-forearm */
 .back-hope-right-forearm
 {
-    top: 46px;
-    left: 31px;
+    top: 47px;
+    left: -4.5px;
     z-index: 6;
-    transform-origin: 4px 0px;
+    transform-origin: 10px 0px;
 }
 /* back-hope-right-arm */
 .back-hope-right-arm
 {
     top: 69px;
-    left: 38px;
+    left: -8px;
     z-index: 8;
-    transform-origin: 4px 0px;
+    transform-origin: 10px 0px;
 }
 /* back-hope-left-upperleg */
 .back-hope-left-upperleg
 {
     top: 84px;
-    left: 6px;
-    z-index: 4;
-    transform-origin: 17px 0px;
+    left: 9px;
+    z-index: 8;
+    transform-origin: 14px 0px;
 }
 /* back-hope-left-leg */
 .back-hope-left-leg
 {
-    top: 128px;
-    left: 0px;
-    z-index: 5;
-    transform-origin: 11px 0px;
+    top: 127px;
+    left: 25px;
+    z-index: 4;
+    transform-origin: 5px 0px;
 }
 /* back-hope-right-upperleg */
 .back-hope-right-upperleg
 {
     top: 84px;
-    left: 8px;
-    z-index: 4;
-    transform-origin: 14px 0px;   
+    left: 4px;
+    z-index: 8;
+    transform-origin: 17px 0px;   
 }
 /* back-hope-right-leg */
 .back-hope-right-leg
 {
-    top: 128px;
-    left: 25px;
-    z-index: 5;
-    transform-origin: 5px 0px;   
+    top: 127px;
+    left: 3px;
+    z-index: 4;
+    transform-origin: 11px 0px;   
 }
 /* -----------------------star-of-sage-------------------- */
 .star-of-sage
