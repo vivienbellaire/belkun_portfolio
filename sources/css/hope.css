@@ -9,7 +9,7 @@
 .face-hope
 {
     position: absolute;
-    /* display: none; */
+    display: none;
 }
 .face-hope *
 {
@@ -275,5 +275,6 @@
     position: absolute;
     top: -20px;
     left: -1px;
+    display: none;
 
 }

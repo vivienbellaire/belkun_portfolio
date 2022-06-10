@@ -2,19 +2,39 @@ body
 {
     margin: 0%;
 }
-
+/* container */
 .darkness
 {
     width: 100%;
     height: 2000px;
     background-color: #000000;  
 }
-
-.pathway
+/* main-path */
+.darkness .pathway
 {
     margin: auto;
-    width: 40%;
-    height: 2000px;
+    width: 60%;
     /* background-color: #080b0b; */
-    background-color: #2f9f9f;  
+    background-color: #a0fffc;  
+}
+/* floor-tiles */
+.darkness .pathway .floor-tiles
+{
+
+}
+/* floor-light */
+.darkness .pathway .floor-tiles .floor-light
+{
+    width: 100%;
+    height: 500px;
+    padding: 0px 10px;
+    background-color: rgb(255, 0, 0);     
+}
+/* tile */
+.darkness .pathway .floor-tiles .floor-light .tile
+{
+    /* width: 90%; */
+    height: 500px;
+    background-color: rgb(18, 18, 23);
+    border: 8px solid #000009;
 }
