@@ -1,12 +1,12 @@
 body
 {
     margin: 0%;
+    background-color: #000000;
 }
 /* container */
 .darkness
 {
     width: 100%;
-    height: 2000px;
     background-color: #000000;  
 }
 /* main-path */
@@ -26,23 +26,58 @@ body
 .darkness .pathway .floor-tiles .floor-light
 {
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
     padding: 0px 10px;
-    background-color: rgb(255, 0, 0);     
+    background-color: rgb(255, 255, 255);     
 }
 /* tile */
 .darkness .pathway .floor-tiles .floor-light .tile
 {
-    /* width: 90%; */
-    height: 500px;
+    width: 100%;
+    /* height: 100%; */
     background-color: rgb(18, 18, 23);
     border: 8px solid #000009;
+    text-align: center;
+    padding-top: 400px;
+    padding-bottom: 140px;
 }
-
-/* text */
-.darkness .pathway .floor-tiles .floor-light .tile p 
+/* title */
+.darkness .pathway .floor-tiles .floor-light .tile .title
 {
     font-family: 'warzone','android','metalord';
     font-size: 20px;
     color: rgb(255, 255, 255);
+
+    padding: 0px 20px 120px 20px;
+}
+/* text */
+.darkness .pathway .floor-tiles .floor-light .tile .text 
+{
+    font-family: 'warzone','android','metalord';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+    padding: 0px 20px 20px 20px;
+    
+}
+/* tale */
+.darkness .pathway .floor-tiles .floor-light .tile .tale 
+{
+    font-family: 'warzone','android','metalord';
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    color: rgb(0, 247, 255);
+
+    padding: 40px 20px 0px 20px;
+}
+/* floor-tile1 */
+.darkness .pathway .floor-tile1 .floor-light .tile
+{
+    height: 800px;
+}
+/* floor-tile11 */
+.darkness .pathway .floor-tile11 .floor-light .tile .tale
+{
+    color: rgb(255, 0, 0);
 }
