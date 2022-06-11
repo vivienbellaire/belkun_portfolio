@@ -1,8 +1,28 @@
 @font-face 
 {
-    font-family: 'major-mono';
-    src: url('../fonts/major-mono-display_regular/major-mono-display_regular.woff2') format('woff2'),
-         url('../fonts/major-mono-display_regular/major-mono-display_regular.woff') format('woff');
+    font-family: 'warzone';
+    src: url('../fonts/warzone/warzone.woff2') format('woff2'),
+         url('../fonts/warzone/warzone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'metalord';
+    src: url('../fonts/metalord/metalord.woff2') format('woff2'),
+         url('../fonts/metalord/metalord.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face 
+{
+    font-family: 'android';
+    src: url('../fonts/android/android.woff2') format('woff2'),
+         url('../fonts/android/android.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
