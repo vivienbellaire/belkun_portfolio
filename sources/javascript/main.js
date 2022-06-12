@@ -7,84 +7,150 @@ const tiles = pathway.querySelectorAll('.tile')
 const circleLights = pathway.querySelectorAll('.circle-light')
 const circleTiles = pathway.querySelectorAll('.circle-tile')
 
-const title = pathway.querySelectorAll('.title')
-const text = pathway.querySelectorAll('.text')
+const titles = pathway.querySelectorAll('.title')
+const texts = pathway.querySelectorAll('.text')
 const tales = pathway.querySelectorAll('.tale')
 
 
-
-// const scrollActivation = () =>
-// {
-//     // let index = 0
-//     for(const floorLight of floorLights)
-//     {
-//         // floorLight.style.background = 'red'
-//         // const translateY = window.scrollY * (index * 100)
-         
-//         // const observer = new IntersectionObserver(function(entries) 
-//         // {
-//         //     // isIntersecting is true when element and viewport are overlapping
-//         //     // isIntersecting is false when element and viewport don't overlap
-//         //     if(entries[0].isIntersecting === true)
-// 		//     console.log('Element has just become visible in screen');
-//         // }, 
-//         // { threshold: [0.5] });
-//     }  
-// }
-
-// window.addEventListener('scroll',scrollActivation)
-
-
-// const observer = new IntersectionObserver((entries, observer) => 
-// {
-//     for(const entry of entries)
-//     {
-//         let index = entry.target.floorLights_index
-//         if (entry.isIntersecting) 
-//         {
-//             console.log(index, 'on')
-//             // entry.style.color = 'red'
-//         } 
-//         else 
-//         {
-//             console.log(index, 'off')
-//         }
-        
-//     }    
-// })
-// for(const floorLight of floorLights)
-// {
-//     floorLight.floorLights_index = index
-//     observer.observe(floorLight)
-//     console.log(floorLight)   
-// }
-
-const observer = new IntersectionObserver(entries => 
+// floorLightsDetect
+const floorLightsDetect = () =>
 {
-    entries.forEach(entry => 
+    const observer = new IntersectionObserver(entries => 
     {
-        // entry.target.classList.add('active', entry.isIntersecting)
-        entry.target.style.background = 'red'
-        if(entry.isIntersecting) 
+        entries.forEach(entry => 
         {
-            entry.target.style.background = 'blue'
-            observer.unobserve(entry.target)
-            console.log(observer)
-        }  
+            if(entry.isIntersecting) 
+            {
+                entry.target.classList.add('floor-lights-activated', entry.isIntersecting)
+                observer.unobserve(entry.target)
+                console.log(observer)
+            }  
+        })
+    },
+    {
+        // delay: 10,
+        threshold: 0.7,
+        // rootMargin: "10px 10px 10px 10px"
     })
-},
-{
-    // delay: 10,
-    threshold: 0.7,
-    // rootMargin: "10px 10px 10px 10px"
-})
+    // floorLights observe
+    floorLights.forEach(floorLight => 
+    {
+        observer.observe(floorLight)
+    })
+}
+floorLightsDetect()
 
-floorLights.forEach(floorLight => 
+// circleLightsDetect
+const circleLightsDetect = () =>
 {
-    observer.observe(floorLight)
-})
-circleLights.forEach(circleLight => 
+    const observer = new IntersectionObserver(entries => 
+    {
+        entries.forEach(entry => 
+        {
+            if(entry.isIntersecting) 
+            {
+                entry.target.classList.add('circle-lights-activated', entry.isIntersecting)
+                observer.unobserve(entry.target)
+                console.log(observer)
+            }  
+        })
+    },
+    {
+        // delay: 10,
+        threshold: 0.2,
+        // rootMargin: "10px 10px 10px 10px"
+    })
+    // circleLights observe
+    circleLights.forEach(circleLight => 
+    {
+        observer.observe(circleLight)
+    })
+}
+circleLightsDetect()
+
+// titlesDetect
+const titlesDetect = () =>
 {
-    observer.observe(circleLight)
-})
+    const observer = new IntersectionObserver(entries => 
+    {
+        entries.forEach(entry => 
+        {
+            if(entry.isIntersecting) 
+            {
+                entry.target.classList.add('titles-activated', entry.isIntersecting)
+                observer.unobserve(entry.target)
+                console.log(observer)
+            }  
+        })
+    },
+    {
+        // delay: 10,
+        threshold: 1,
+        // rootMargin: "10px 10px 10px 10px"
+    })
+    // titles observe
+    titles.forEach(title => 
+    {
+        observer.observe(title)
+    })
+}
+titlesDetect()
+
+// textsDetect
+const textsDetect = () =>
+{
+    const observer = new IntersectionObserver(entries => 
+    {
+        entries.forEach(entry => 
+        {
+            if(entry.isIntersecting) 
+            {
+                entry.target.classList.add('texts-activated', entry.isIntersecting)
+                observer.unobserve(entry.target)
+                console.log(observer)
+            }  
+        })
+    },
+    {
+        // delay: 10,
+        threshold: 1,
+        // rootMargin: "10px 10px 10px 10px"
+    })
+    // texts observe
+    texts.forEach(text => 
+    {
+        observer.observe(text)
+    })
+}
+textsDetect()
+
+// talesDetect
+const talesDetect = () =>
+{
+    const observer = new IntersectionObserver(entries => 
+    {
+        entries.forEach(entry => 
+        {
+            if(entry.isIntersecting) 
+            {
+                entry.target.classList.add('tales-activated', entry.isIntersecting)
+                observer.unobserve(entry.target)
+                console.log(observer)
+            }  
+        })
+    },
+    {
+        // delay: 10,
+        threshold: 1,
+        // rootMargin: "10px 10px 10px 10px"
+    })
+
+    // tales observe
+    tales.forEach(tale => 
+    {
+        observer.observe(tale)
+    })
+}
+talesDetect()
+
 
