@@ -32,14 +32,14 @@
     /* title */
     .darkness .pathway .floor-tiles .floor-light .tile .title
     {
-        font-size: 16px;
+        font-size: 18px;
         padding: 0px 20px 80px 20px;
         line-height: 40px;
     }
     /* text */
     .darkness .pathway .floor-tiles .floor-light .tile .text 
     {
-        font-size: 16px;
+        font-size: 18px;
         padding: 0px 20px 10px 20px;
         line-height: 40px;
     }

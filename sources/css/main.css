@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+
 body
 {
     margin: 0%;
@@ -65,8 +68,9 @@ body
 /* title */
 .darkness .pathway .floor-tiles .floor-light .tile .title
 {
-    font-family: 'warzone','android','metalord';
-    font-size: 20px;
+    font-family: 'Play','warzone','metalord';
+    font-size: 22px;
+    font-weight: bold;
     /* color: rgb(5, 8, 9); */
     padding: 0px 20px 120px 20px;
     line-height: 40px;
@@ -74,8 +78,8 @@ body
 /* text */
 .darkness .pathway .floor-tiles .floor-light .tile .text 
 {
-    font-family: 'warzone','android','metalord';
-    font-size: 20px;
+    font-family: 'Play','warzone','metalord';
+    font-size: 22px;
     /* color: rgb(5, 8, 9); */
     padding: 0px 20px 20px 20px;
     
@@ -123,7 +127,7 @@ body
     background-color: rgb(255, 0, 251);
     transition-property: background-color;
     transition-duration: 1200ms;
-    transition-timing-function: ease-in-out;       
+    transition-timing-function: ease-in-out;     
 }
 /* titles-activated */
 .titles-activated

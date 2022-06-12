@@ -29,7 +29,7 @@ const floorLightsDetect = () =>
     },
     {
         // delay: 10,
-        threshold: 0.7,
+        threshold: 0.3,
         // rootMargin: "10px 10px 10px 10px"
     })
     // floorLights observe
@@ -57,7 +57,7 @@ const circleLightsDetect = () =>
     },
     {
         // delay: 10,
-        threshold: 0.2,
+        threshold: 1,
         // rootMargin: "10px 10px 10px 10px"
     })
     // circleLights observe
