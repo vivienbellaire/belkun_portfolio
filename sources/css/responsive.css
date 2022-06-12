@@ -1,0 +1,57 @@
+ @media (max-device-width: 460px)
+{
+    /* main-path */
+    .darkness .pathway
+    {
+        width: 95%;
+    }
+    /* tile */
+    .darkness .pathway .floor-tiles .floor-light .tile
+    {
+        border: 6px solid #07070b;
+        padding-top: 300px;
+        padding-bottom: 80px;
+    }
+    /* circle-light */
+    .darkness .pathway .floor-tiles .floor-light .tile .circle-light
+    {
+        left: calc(50% - 90px);
+        top: 5%;
+        width: 180px;
+        height: 180px;
+    }
+    /* circle-tile */
+    .darkness .pathway .floor-tiles .floor-light .tile .circle-light .circle-tile
+    {
+        left: 5%;
+        top: 5%;
+        width: 160px;
+        height: 160px;
+        border: 1px solid #000009;  
+    }
+    /* title */
+    .darkness .pathway .floor-tiles .floor-light .tile .title
+    {
+        font-size: 16px;
+        padding: 0px 20px 80px 20px;
+        line-height: 40px;
+    }
+    /* text */
+    .darkness .pathway .floor-tiles .floor-light .tile .text 
+    {
+        font-size: 16px;
+        padding: 0px 20px 10px 20px;
+        line-height: 40px;
+    }
+    /* tale */
+    .darkness .pathway .floor-tiles .floor-light .tile .tale 
+    {
+        font-size: 14px;
+        padding: 20px 20px 0px 20px;
+    }
+    /* floor-tile1 */
+    .darkness .pathway .floor-tile1 .floor-light .tile
+    {
+        height: 400px;
+    }  
+}
