@@ -152,5 +152,3 @@ const talesDetect = () =>
     })
 }
 talesDetect()
-
-
