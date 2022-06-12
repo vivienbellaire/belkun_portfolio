@@ -33,13 +33,39 @@ body
 /* tile */
 .darkness .pathway .floor-tiles .floor-light .tile
 {
+    position: relative;
     width: 100%;
     /* height: 100%; */
     background-color: rgb(18, 18, 23);
     border: 8px solid #000009;
     text-align: center;
-    padding-top: 400px;
+    padding-top: 460px;
     padding-bottom: 140px;
+}
+/* circle-light */
+.darkness .pathway .floor-tiles .floor-light .tile .circle-light
+{
+    position: absolute;
+    left: calc(50% - 120px);
+    top: 10%;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    border: 1px solid #000009;
+        
+}
+/* circle-tile */
+.darkness .pathway .floor-tiles .floor-light .tile .circle-light .circle-tile
+{
+    position: absolute;
+    left: calc(50% - 105px);
+    top: calc(50% - 105px);
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: rgb(18, 18, 23);
+    border: 4px solid #000009;  
 }
 /* title */
 .darkness .pathway .floor-tiles .floor-light .tile .title
@@ -47,7 +73,6 @@ body
     font-family: 'warzone','android','metalord';
     font-size: 20px;
     color: rgb(255, 255, 255);
-
     padding: 0px 20px 120px 20px;
 }
 /* text */
