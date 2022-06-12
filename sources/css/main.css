@@ -30,6 +30,11 @@ body
     padding: 0px 10px;
     background-color: rgb(255, 255, 255);     
 }
+/* active
+.darkness .pathway .floor-tiles .active
+{
+    background-color: rgb(255, 0, 0);     
+} */
 /* tile */
 .darkness .pathway .floor-tiles .floor-light .tile
 {
@@ -99,10 +104,16 @@ body
 /* floor-tile1 */
 .darkness .pathway .floor-tile1 .floor-light .tile
 {
+    top: 10px;
     height: 800px;
 }
 /* floor-tile11 */
 .darkness .pathway .floor-tile11 .floor-light .tile .tale
 {
     color: rgb(255, 0, 0);
+}
+/* floor-tile33 */
+.darkness .pathway .floor-tile33 .floor-light .tile
+{
+    bottom: 10px;
 }
