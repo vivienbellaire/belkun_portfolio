@@ -22,6 +22,7 @@ const floorLightsDetect = () =>
             if(entry.isIntersecting) 
             {
                 entry.target.classList.add('floor-lights-activated', entry.isIntersecting)
+                
                 observer.unobserve(entry.target)
                 console.log(observer)
             }  
