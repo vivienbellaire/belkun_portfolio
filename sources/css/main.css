@@ -29,6 +29,11 @@ body
     /* background-color: rgb(23, 23, 23);      */
 }
 /* tile */
+.darkness .pathway .tales-floor-tile
+{
+    /* display: none; */
+}
+/* tile */
 .darkness .pathway .floor-tiles .floor-light .tile
 {
     position: relative;
@@ -124,9 +129,9 @@ body
 /* circle-lights-activated */
 .circle-lights-activated
 {
-    background-color: rgb(255, 0, 251);
+    background-color: rgb(255, 255, 255);
     transition-property: background-color;
-    transition-duration: 1200ms;
+    transition-duration: 600ms;
     transition-timing-function: ease-in-out;     
 }
 /* titles-activated */
@@ -134,8 +139,7 @@ body
 {
     color: rgb(255, 255, 0);
     transition-property: color;
-    transition-duration: 1200ms;
-    /* transition-delay: 300ms; */
+    transition-duration: 600ms;
     transition-timing-function: ease-in-out;  
 }
 /* texts-activated */
@@ -143,16 +147,14 @@ body
 {
     color: rgb(0, 234, 255);
     transition-property: color;
-    transition-duration: 1200ms;
-    /* transition-delay: 300ms; */
+    transition-duration: 600ms;
     transition-timing-function: ease-in-out;  
 }
 /* tales-activated */
 .tales-activated
 {
-    color: rgb(255, 0, 0);
+    color: rgb(255, 0, 251);
     transition-property: color;
-    transition-duration: 1200ms;
-    /* transition-delay: 300ms; */
+    transition-duration: 900ms;
     transition-timing-function: ease-in-out; 
 }
