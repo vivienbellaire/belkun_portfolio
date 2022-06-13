@@ -1,4 +1,37 @@
- @media (max-device-width: 460px)
+/* min-device-width: 1000px */
+@media (min-width: 1200px)
+{
+    /* main-path */
+    .darkness .pathway
+    {
+        width: 60%;
+    }
+    /* tile */
+    .darkness .pathway .floor-tiles .floor-light .tile
+    {
+        padding-top: 400px;
+        padding-bottom: 120px;
+    }
+    /* title */
+    .darkness .pathway .floor-tiles .floor-light .tile .title
+    {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    /* text */
+    .darkness .pathway .floor-tiles .floor-light .tile .text 
+    {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    /* tale */
+    .darkness .pathway .floor-tiles .floor-light .tile .tale 
+    {
+        font-size: 18px;
+    }
+}
+/* max-width: 460px */
+@media (max-width: 460px)
 {
     /* main-path */
     .darkness .pathway
