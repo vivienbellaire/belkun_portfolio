@@ -153,3 +153,13 @@ const talesDetect = () =>
     })
 }
 talesDetect()
+
+
+// const returnButton = pathway.querySelector('.return-button')
+// const restart = () =>
+// {
+//     windows.scrollY = 0
+    
+    
+// }
+// returnButton.addEventListener('click', restart())

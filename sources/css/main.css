@@ -28,7 +28,7 @@ body
     padding: 0px 10px;
     /* background-color: rgb(23, 23, 23);      */
 }
-/* tile */
+/* tales-floor-tile */
 .darkness .pathway .tales-floor-tile
 {
     /* display: none; */
@@ -98,7 +98,7 @@ body
     letter-spacing: 2px;
     /* color: rgb(5, 8, 9); */
 
-    padding: 40px 20px 0px 20px;
+    padding: 30px 20px 0px 20px;
 }
 /* floor-tile1 */
 .darkness .pathway .floor-tile1 .floor-light .tile
@@ -106,16 +106,13 @@ body
     top: 10px;
     height: 900px;
 }
-/* floor-tile11
-.darkness .pathway .floor-tile11 .floor-light .tile .tale
+/* floor-tile4 */
+.darkness .pathway .floor-tile4 .floor-light .tile .tale
 {
-    color: rgb(255, 0, 0);
-} */
-/* floor-tile33 */
-.darkness .pathway .floor-tile33 .floor-light .tile
-{
-    bottom: 10px;
+    
 }
+
+
 /* --------------transition------------------ */
 /* floor-lights-activated */
 .floor-lights-activated
@@ -158,3 +155,51 @@ body
     transition-duration: 900ms;
     transition-timing-function: ease-in-out; 
 }
+
+/*------------------------ buttons -----------------------*/
+/* floor-tile31 */
+.darkness .pathway .floor-tile31 .floor-light .tile
+{
+    bottom: 10px;
+    /* height: 1000px; */
+}
+/* return-button */
+/* .darkness .pathway .floor-tile31 .floor-light .tile .return-button
+{
+    cursor: pointer;
+}
+.darkness .pathway .floor-tile31 .floor-light .tile .return-button .text
+{
+    position: absolute;
+    bottom: 24%;
+    left: calc(50% - 50px);
+    font-weight: bold;
+    color: rgb(0, 170, 255);
+    padding: 0%;
+}
+.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light
+{
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 10%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 170, 255);
+}
+.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light .return-circle-tile
+{
+    position: absolute;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(12, 12, 19);
+    border: 1px solid #000000; 
+}
+.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light .return-circle-tile:hover
+{
+    background-color: rgba(255, 255, 255, 0.342);
+    border: white;
+} */
