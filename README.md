@@ -1,13 +1,17 @@
-<!-- WARNING ! -->
+# WARNING !
+
 -The "new IntersectionObserver" interaction is a new features and can generates some bugs !
 
-<!-- COMING SOON ! -->
--Animate Hope
+# COMING SOON !
+
+-Add character 'Hope'
 -Add some song
 -Add Naviguation
 -Add Point of View scroll-system
+-Add return button
+-Add story hiding button
 
-<!-- FULL STORY -->
+# FULL STORY
 
 THERE IS A TALE ABOUT A ANGEL
 WHO WAS BORED OF LIVING AMONG THE GOD
