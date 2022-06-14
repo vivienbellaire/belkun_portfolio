@@ -157,49 +157,30 @@ body
 }
 
 /*------------------------ buttons -----------------------*/
-/* floor-tile31 */
-.darkness .pathway .floor-tile31 .floor-light .tile
+/* floor-tile1 */
+.darkness .pathway .floor-tile1 .floor-light .tile
 {
     bottom: 10px;
     /* height: 1000px; */
 }
-/* return-button */
-/* .darkness .pathway .floor-tile31 .floor-light .tile .return-button
+/* story-button */
+.darkness .pathway .floor-tile1 .floor-light .tile .story-button
 {
     cursor: pointer;
-}
-.darkness .pathway .floor-tile31 .floor-light .tile .return-button .text
-{
     position: absolute;
-    bottom: 24%;
-    left: calc(50% - 50px);
-    font-weight: bold;
-    color: rgb(0, 170, 255);
-    padding: 0%;
-}
-.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light
-{
-    position: absolute;
-    left: calc(50% - 50px);
-    bottom: 10%;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: rgb(0, 170, 255);
-}
-.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light .return-circle-tile
-{
-    position: absolute;
-    left: calc(50% - 40px);
-    top: calc(50% - 40px);
-    width: 80px;
+    left: calc(50% - 150px);
+    bottom: 30%;
+    width: 300px;
     height: 80px;
-    border-radius: 50%;
-    background-color: rgb(12, 12, 19);
-    border: 1px solid #000000; 
+    font-family: 'android','warzone','metalord';
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
-.darkness .pathway .floor-tile31 .floor-light .tile .return-button .return-circle-light .return-circle-tile:hover
+.darkness .pathway .floor-tile1 .floor-light .tile .story-button:hover
 {
-    background-color: rgba(255, 255, 255, 0.342);
-    border: white;
-} */
+    transform: scale(1.2);
+    background-color: rgba(255, 255, 255, 0.382);
+}

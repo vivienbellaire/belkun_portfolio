@@ -1,15 +1,15 @@
 # WARNING !
 
--The "new IntersectionObserver" interaction is a new features and can generates some bugs !
+- The "new IntersectionObserver" interaction is a new features and can generates some bugs !
 
 # COMING SOON !
 
--Add character 'Hope'
--Add some song
--Add Naviguation
--Add Point of View scroll-system
--Add return button
--Add story hiding button
+- Add character 'Hope'
+- Add some song
+- Add Naviguation
+- Add Point of View scroll-system
+- Add return button
+- Add story hiding button
 
 # FULL STORY
 

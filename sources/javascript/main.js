@@ -11,6 +11,11 @@ const titles = pathway.querySelectorAll('.title')
 const texts = pathway.querySelectorAll('.text')
 const tales = pathway.querySelectorAll('.tale')
 
+const storyButton = pathway.querySelector('.story-button')
+const talesFloorTiles = pathway.querySelectorAll('.tales-floor-tile')
+
+
+const returnButton = pathway.querySelector('.return-button')
 
 // floorLightsDetect
 const floorLightsDetect = () =>
@@ -155,11 +160,22 @@ const talesDetect = () =>
 talesDetect()
 
 
-// const returnButton = pathway.querySelector('.return-button')
-// const restart = () =>
-// {
-//     windows.scrollY = 0
+
+
+
+storyButton.innerHTML = 'TALE DISPLAY ON'
+storyButton.style.color = 'rgb(0, 255, 68)'
     
-    
-// }
-// returnButton.addEventListener('click', restart())
+
+storyButton.addEventListener('click', function()
+{
+    if(storyButton.innerHTML = 'TALE DISPLAY ON')
+    {
+        for(const talesFloorTile of talesFloorTiles)
+        {
+            talesFloorTile.style.display = 'none'
+            storyButton.innerHTML = 'TALE DISPLAY OFF'
+            storyButton.style.color = 'rgb(255, 0, 68)'   
+        }    
+    }
+})
